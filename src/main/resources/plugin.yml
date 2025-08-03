@@ -1,0 +1,6 @@
+name: SuperChargedFactions
+version: '1.0-Beta'
+main: io.papermc.superChargedFactions.SuperChargedFactions
+api-version: '1.21.1'
+authors: [Dasbomb080, Escapethecape]
+description: A Futuristic factions Plugin
