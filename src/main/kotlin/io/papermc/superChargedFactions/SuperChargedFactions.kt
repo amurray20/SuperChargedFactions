@@ -17,6 +17,8 @@ class SuperChargedFactions : JavaPlugin(), Listener {
     @EventHandler
     fun onPlayerJoin(event: PlayerJoinEvent) {
         event.getPlayer().sendMessage(Component.text("Hello, " + event.getPlayer().getName() + "!"))
+        event.getPlayer().tier = 0
+        event.getPlayer().sendMessage(Component.text("Tier, " + event.getPlayer().tier + "!"))
     }
 
     override fun onDisable() {
